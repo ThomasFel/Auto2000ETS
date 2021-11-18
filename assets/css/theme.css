@@ -5831,19 +5831,6 @@ a.blantershow-chat i {
   margin: 0 10px 0 0;
 }
 
-.info-avatar:before {
-  content: "\f232";
-  z-index: 1;
-  font-family: "Font Awesome 5 Brands";
-  background: #23ab23;
-  color: #fff;
-  padding: 4px 5px;
-  border-radius: 100%;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
-
 a.informasi {
   padding: 20px;
   display: block;
@@ -5898,6 +5885,7 @@ textarea#chat-input {
   height: 20px;
   outline: none;
   resize: none;
+  overflow: hidden;
 }
 
 a#send-it {
@@ -5905,7 +5893,7 @@ a#send-it {
   width: 40px;
   margin: -5px 0 0 5px;
   font-weight: 700;
-  padding: 8px;
+  padding: 6px;
   background: #eee;
   border-radius: 10px;
 }
@@ -5979,4 +5967,17 @@ a.close-chat {
   animation-duration: 1.5s;
   transform: scale(1);
   opacity: 1;
+}
+
+.fa-whatsapp{
+  color:#fff;
+  background:
+    linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+    radial-gradient(#25d366 60%,transparent 0);
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 100%;
+  padding: 3px 4px;
 }
